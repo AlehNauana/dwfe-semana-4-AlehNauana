@@ -19,7 +19,8 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 > Sugestão, use o Excalidraw para isso. Utilize esse [template básico](https://excalidraw.com/#json=LU-8hwcQEwzk11FwO8Opo,qPU9K6cNUEzlXzwOuKMIlQ) para você começar.
 
-![alt](/dwfe-semana-4-AlehNauana/public/imgs/Wireframa_b99.png)
+![alt](/public/imgs/Wireframa_b99.png)
+
 
 ## Print da home-page criada
 
