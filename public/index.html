@@ -1,12 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Brookyn Nine Nine</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <nav class="menu-navegacao">
+        <img
+          src="/public/imgs/Brooklyn_Nine-Nine_Logo.png"
+          width="150"
+          alt="logo"
+        />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="">Distrito</a></li>
+          <li><a href="">Personagens</a></li>
+          <li><a href="">Curiosidades</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="conteudo-principal">
+      <img
+        src="/public/imgs/esquadrao.png"
+        width="40"
+        alt="b99"
+        class="banner-topo"
+      />
+
+      <section class="roubo">
+        <h2>Linha do Tempo: O Roubo de Halloween</h2>
+
+        <article class="seta-cronologica">
+          <span class="ano">2013</span>
+          <p>Episódio: Halloween</p>
+        </article>
+
+        <article class="seta-cronologica">
+          <span class="ano">2014</span>
+          <p>Episódio: Halloween 2</p>
+        </article>
+
+        <article class="seta-cronologica">
+          <span class="ano">2015</span>
+          <p>Episódio: Halloween 3</p>
+        </article>
+      </section>
+
+      <div class="coluna-esquerda">
+        <section class="curiosidades">
+          <h2>Curiosidades</h2>
+          <article>
+            <h3>Curiosidade 1</h3>
+            <p>
+              O Episódio "Noite Sem Ópera" é o mais bem avaliado da série pelo
+              IMDB
+            </p>
+            <img
+              src="/public/imgs/noite-sem-opera.jpg"
+              width="300"
+              alt="noite-sem-opera"
+            />
+          </article>
+
+          <article>
+            <h3>Curiosidade 2</h3>
+            <p>
+              Jake Peralta e Raymond Holt são os únicos personagens que aparecem
+              em todos os episódios da série
+            </p>
+            <img src="/public/imgs/jake-holt.jpg" width="300" alt="jake-holt" />
+          </article>
+
+          <article>
+            <h3>Curiosidade 3</h3>
+            <p>O personagem Terry Jerfords foi insipirado no próprio ator</p>
+            <img src="/public/imgs/terry.png" width="300" alt="terry" />
+          </article>
+        </section>
+      </div>
+
+      <aside class="barra-lateral">
+        <section class="formulario">
+          <h3>Receba Atualizações</h3>
+          <form action="">
+            <input type="text" placeholder="Seu nome" class="input-campo" />
+            <input type="email" placeholder="Seu email" class="input-campo" />
+            <button type="submit" class="botao-cadastro">Cadastrar Fã</button>
+          </form>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="rodape">
+      <p>A Serie</p>
+      <p>Elenco</p>
+      <p>Siga-nos nas redes sociais</p>
+    </footer>
+  </body>
 </html>
